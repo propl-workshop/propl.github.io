@@ -1,0 +1,29 @@
+Call for Contributions
+Workshop on Programming for the Planet (PROPL)  colocated with POPL 2023.
+Saturday January 20th 2023, London, UK
+https://popl24.sigplan.org/home/propl-2024
+
+There are simultaneous crises across the planet due to rising CO2 emissions, rapid biodiversity loss, and desertification. Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to make decisions that affect the lives of billions of people worldwide.
+
+However, programming the computer systems required to effectively ingest, clean, collate, process, explore, archive, and derive policy decisions from the planetary data we are collecting is difficult and leads to artefacts presently not usable by non-CS-experts, not reliable enough for scientific and political decision making, and not widely and openly available to all interested parties. Concurrently, domains where computational techniques are already central (e.g., climate modelling) are facing diminishing returns from current hardware trends and software techniques.
+
+PROPL explores how to close the gap between state-of-the-art programming methods being developed in academia and the use of programming in climate analysis, modelling, forecasting, policy, and diplomacy. The aim is to build bridges to the current practices used in the scientific community.
+
+The first edition of this workshop will comprise:
+* invited talks from practitioners in the environmental/climate sciences
+* contributed talks (selected by the programme committee based on short abstracts)
+* "working workshop brainstorming" format.
+
+We would welcome contributions in the following forms:
+
+* Talk proposal: Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation.
+
+* Proposed discussion: If you would like to propose a discussion/brainstorming session on a particular topic, e.g., in a hour slot, then please submit a description of the session, at least three questions to consider, and at least two possible participants who could lead the discussion.
+
+* Discussant: Please outline an area of expertise aligned with the workshop in which you would be willing to act as a discussant, i.e., provide detailed commentary on talks given within this topic.
+
+Significant dates:
+
+- Call for proposals: due in Nov 24th 2023
+- Notification of talks: Dec 4th 2023
+- Workshop date: 20th January 2024 (co-located with POPL in London)

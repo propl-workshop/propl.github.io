@@ -1,0 +1,40 @@
+Call for Contributions
+2nd Workshop on Programming for the Planet (PROPL) co-located with ICFP-SPLASH 2025
+Monday 13th Oct 2025, Singapore
+https://conf.researchr.org/home/icfp-splash-2025/propl-2025
+
+There are simultaneous crises across the planet due to rising CO2 emissions, rapid biodiversity loss, and desertification. Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to make decisions that affect the lives of billions of people worldwide.
+
+However, programming the computer systems required to effectively ingest, clean, collate, process, explore, archive, and derive policy decisions from the planetary data we are collecting is difficult and leads to artefacts presently not usable by non-CS-experts, not reliable enough for scientific and political decision making, and not widely and openly available to all interested parties. Concurrently, domains where computational techniques are already central (e.g., climate modelling) are facing diminishing returns from current hardware trends and software techniques.
+
+PROPL explores how to close the gap between state-of-the-art programming methods being developed in academia and the use of programming in climate analysis, modelling, forecasting, policy, and diplomacy. The aim is to build bridges to the current practices used in the scientific community.
+
+We welcome contributions in the following forms:
+
+* Provocations: (any length), short position pieces proposing and outlining a problem, application area, challenge, or capacity gap, that might be addressable by members of the community. We especially welcome such contributions from domain experts outside computer science. Please submit this using the form available at XXX.
+
+* Short papers: (up to 5 pages, excluding bibliography and appendices), addressing a topic within the scope of the workshop. These should be formatted using the acmart SIGPLAN double-column format, i.e., `\documentclass[sigplan]{acmart}`. Papers will appear in the ACM Digital Library.
+
+* Talk proposal: Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation. Multiple talk proposals may be combined into panel discussions, depending on the submitted topics.
+
+Significant dates:
+
+- Deadline: 3rd July 2025 AoE
+- Notification: 7th August 2025
+- Camera ready: 22nd August 2025
+
+Programming Committee:
+
+Chinmayi Baramashetru (University of Kent)
+Valentin Churavy (University of Augsburg)
+Justin Hsu (Cornell)
+Roly Perera (University of Cambridge)
+Lisa Rennels (Stanford)
+Aaditeshwar Seth (IIT Delhi)
+KC Sivaramakrishnan (IIT Madras)
+Lauritz Thamsen (University of Glasgow)
+Michele Weiland (University of Edinburgh)
+
+Chairs:
+
+Any comments or questions please e-mail the chairs: Dominic Orchard (d.a.orchard@kent.ac.uk) and Anil Madhavapeddy (avsm2@cam.ac.uk)

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call for Contributions - PROPL 2025</title>
+    <style>
+        :root {
+            --primary-color: #2a7b9b;
+            --secondary-color: #8bc34a;
+            --dark-color: #333;
+            --light-color: #f8f9fa;
+            --max-width: 1000px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+        }
+        
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #1e5b73);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--primary-color);
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn:hover {
+            background-color: #1d5a73;
+        }
+        
+        .btn-orange {
+            background-color: #ff9800;
+        }
+        
+        .btn-orange:hover {
+            background-color: #e68a00;
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #71a436;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .dates {
+            background-color: #e3f2fd;
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .committee {
+            columns: 2;
+            column-gap: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .committee {
+                columns: 1;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: var(--dark-color);
+            color: white;
+            margin-top: 2rem;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Call for Contributions</h1>
+            <p style="font-size: 1.2rem;">2nd Workshop on Programming for the Planet (PROPL)</p>
+            <p>Co-located with ICFP-SPLASH 2025 • Monday 13th Oct 2025, Singapore</p>
+            <div style="margin-top: 1.5rem;">
+                <a href="https://conf.researchr.org/home/icfp-splash-2025/propl-2025" class="btn" target="_blank">Workshop Website</a>
+                <a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Talk</a>
+                <a href="index.html" class="btn btn-secondary">Back to Main Page</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <p>There are simultaneous crises across the planet due to rising CO2 emissions, rapid biodiversity loss, and desertification. Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to make decisions that affect the lives of billions of people worldwide.</p>
+            
+            <p>However, programming the computer systems required to effectively ingest, clean, collate, process, explore, archive, and derive policy decisions from the planetary data we are collecting is difficult and leads to artefacts presently not usable by non-CS-experts, not reliable enough for scientific and political decision making, and not widely and openly available to all interested parties. Concurrently, domains where computational techniques are already central (e.g., climate modelling) are facing diminishing returns from current hardware trends and software techniques.</p>
+            
+            <p>PROPL explores how to close the gap between state-of-the-art programming methods being developed in academia and the use of programming in climate analysis, modelling, forecasting, policy, and diplomacy. The aim is to build bridges to the current practices used in the scientific community.</p>
+        </div>
+        
+        <h2>Types of Contributions</h2>
+        <div class="card">
+            <h3>Provocations</h3>
+            <p>Short position pieces (any length) proposing and outlining a problem, application area, challenge, or capacity gap, that might be addressable by members of the community. We especially welcome such contributions from domain experts outside computer science. Please submit provocations using the Google Form linked below.</p>
+            <p><a href="https://forms.gle/qQuLpH1K9k1ycJdZ6" class="btn btn-orange" target="_blank">Submit a Provocation</a></p>
+            
+            <h3>Short Papers</h3>
+            <p>Up to 5 pages (excluding bibliography and appendices), addressing a topic within the scope of the workshop. These should be formatted using the acmart SIGPLAN double-column format, i.e., <code>\documentclass[sigplan]{acmart}</code>. Papers will appear in the ACM Digital Library.</p>
+            <p><a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Paper</a></p>
+            
+            <h3>Talk Proposals</h3>
+            <p>Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation. Multiple talk proposals may be combined into panel discussions, depending on the submitted topics.</p>
+            <p><a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Talk</a></p>
+        </div>
+        
+        <h2>Important Dates</h2>
+        <div class="dates">
+            <p><strong>Submission Deadline:</strong> 3rd July 2025 AoE</p>
+            <p><strong>Notification:</strong> 7th August 2025</p>
+            <p><strong>Camera Ready:</strong> 22nd August 2025</p>
+            <p><strong>Workshop:</strong> Monday, 13th October 2025</p>
+        </div>
+        
+        <h2>Programming Committee</h2>
+        <div class="card">
+            <div class="committee">
+                <p>Chinmayi Baramashetru (University of Kent)</p>
+                <p>Valentin Churavy (University of Augsburg)</p>
+                <p>Justin Hsu (Cornell)</p>
+                <p>Roly Perera (University of Cambridge)</p>
+                <p>Lisa Rennels (Stanford)</p>
+                <p>Aaditeshwar Seth (IIT Delhi)</p>
+                <p>KC Sivaramakrishnan (IIT Madras)</p>
+                <p>Lauritz Thamsen (University of Glasgow)</p>
+                <p>Michele Weiland (University of Edinburgh)</p>
+            </div>
+        </div>
+        
+        <h2>Workshop Chairs</h2>
+        <div class="card">
+            <p>Any comments or questions please e-mail the chairs:</p>
+            <p>Dominic Orchard (<a href="mailto:d.a.orchard@kent.ac.uk">d.a.orchard@kent.ac.uk</a>)</p>
+            <p>Anil Madhavapeddy (<a href="mailto:avsm2@cam.ac.uk">avsm2@cam.ac.uk</a>)</p>
+        </div>
+        
+        <div class="back-link">
+            <a href="index.html" class="btn btn-secondary">Back to Main Page</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Programming for the Planet (PROPL) Workshop</p>
+        </div>
+    </footer>
+</body>
+</html>
