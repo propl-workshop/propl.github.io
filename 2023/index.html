@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call for Contributions - PROPL 2025</title>
+    <title>Call for Contributions - PROPL 2023</title>
     <style>
         :root {
             --primary-color: #2a7b9b;
@@ -37,7 +37,7 @@
             color: white;
             padding: 3rem 0;
             text-align: center;
-            background-image: url('bg.jpg');
+            background-image: url('../bg.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -107,14 +107,6 @@
             background-color: #1d5a73;
         }
         
-        .btn-orange {
-            background-color: #ff9800;
-        }
-        
-        .btn-orange:hover {
-            background-color: #e68a00;
-        }
-        
         .btn-secondary {
             background-color: var(--secondary-color);
         }
@@ -138,21 +130,6 @@
             margin: 2rem 0;
         }
         
-        .committee {
-            columns: 2;
-            column-gap: 2rem;
-        }
-        
-        @media (max-width: 768px) {
-            .committee {
-                columns: 1;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-        
         footer {
             text-align: center;
             padding: 2rem 0;
@@ -165,18 +142,26 @@
             margin-top: 2rem;
             text-align: center;
         }
+        
+        pre {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container header-content">
             <h1>Call for Contributions</h1>
-            <p style="font-size: 1.2rem;">2nd Workshop on Programming for the Planet (PROPL)</p>
-            <p>Co-located with ICFP-SPLASH 2025 • Monday 13th Oct 2025, Singapore</p>
+            <p style="font-size: 1.2rem;">1st Workshop on Programming for the Planet (PROPL)</p>
+            <p>Co-located with POPL 2023 • Saturday January 20th 2023, London, UK</p>
             <div style="margin-top: 1.5rem;">
-                <a href="https://conf.researchr.org/home/icfp-splash-2025/propl-2025" class="btn" target="_blank">Workshop Website</a>
-                <a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Talk</a>
-                <a href="index.html" class="btn btn-secondary">Back to Main Page</a>
+                <a href="https://popl24.sigplan.org/home/propl-2024" class="btn" target="_blank">Workshop Website</a>
+                <a href="../index.html" class="btn btn-secondary">Back to Main Page</a>
             </div>
         </div>
     </header>
@@ -190,59 +175,81 @@
             <p>PROPL explores how to close the gap between state-of-the-art programming methods being developed in academia and the use of programming in climate analysis, modelling, forecasting, policy, and diplomacy. The aim is to build bridges to the current practices used in the scientific community.</p>
         </div>
         
+        <h2>Workshop Format</h2>
+        <div class="card">
+            <p>The first edition of this workshop will comprise:</p>
+            <ul>
+                <li>Invited talks from practitioners in the environmental/climate sciences</li>
+                <li>Contributed talks (selected by the programme committee based on short abstracts)</li>
+                <li>"Working workshop brainstorming" format</li>
+            </ul>
+        </div>
+        
         <h2>Types of Contributions</h2>
         <div class="card">
-            <h3>Provocations</h3>
-            <p>Short position pieces (any length) proposing and outlining a problem, application area, challenge, or capacity gap, that might be addressable by members of the community. We especially welcome such contributions from domain experts outside computer science. Please submit provocations using the Google Form linked below.</p>
-            <p><a href="https://forms.gle/qQuLpH1K9k1ycJdZ6" class="btn btn-orange" target="_blank">Submit a Provocation</a></p>
-            
-            <h3>Short Papers</h3>
-            <p>Up to 5 pages (excluding bibliography and appendices), addressing a topic within the scope of the workshop. These should be formatted using the acmart SIGPLAN double-column format, i.e., <code>\documentclass[sigplan]{acmart}</code>. Papers will appear in the ACM Digital Library.</p>
-            <p><a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Paper</a></p>
+            <p>We would welcome contributions in the following forms:</p>
             
             <h3>Talk Proposals</h3>
-            <p>Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation. Multiple talk proposals may be combined into panel discussions, depending on the submitted topics.</p>
-            <p><a href="https://propl25.hotcrp.com" class="btn btn-orange" target="_blank">Submit a Talk</a></p>
+            <p>Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation.</p>
+            
+            <h3>Proposed Discussion</h3>
+            <p>If you would like to propose a discussion/brainstorming session on a particular topic, e.g., in a hour slot, then please submit a description of the session, at least three questions to consider, and at least two possible participants who could lead the discussion.</p>
+            
+            <h3>Discussant</h3>
+            <p>Please outline an area of expertise aligned with the workshop in which you would be willing to act as a discussant, i.e., provide detailed commentary on talks given within this topic.</p>
         </div>
         
         <h2>Important Dates</h2>
         <div class="dates">
-            <p><strong>Submission Deadline:</strong> 3rd July 2025 AoE</p>
-            <p><strong>Notification:</strong> 7th August 2025</p>
-            <p><strong>Camera Ready:</strong> 22nd August 2025</p>
-            <p><strong>Workshop:</strong> Monday, 13th October 2025</p>
+            <p><strong>Call for proposals:</strong> Due November 24th 2023</p>
+            <p><strong>Notification of talks:</strong> December 4th 2023</p>
+            <p><strong>Workshop date:</strong> January 20th 2024 (co-located with POPL in London)</p>
         </div>
         
-        <h2>Programming Committee</h2>
         <div class="card">
-            <div class="committee">
-                <p>Chinmayi Baramashetru (University of Kent)</p>
-                <p>Valentin Churavy (University of Augsburg)</p>
-                <p>Justin Hsu (Cornell)</p>
-                <p>Roly Perera (University of Cambridge)</p>
-                <p>Lisa Rennels (Stanford)</p>
-                <p>Aaditeshwar Seth (IIT Delhi)</p>
-                <p>KC Sivaramakrishnan (IIT Madras)</p>
-                <p>Lauritz Thamsen (University of Glasgow)</p>
-                <p>Michele Weiland (University of Edinburgh)</p>
-            </div>
-        </div>
-        
-        <h2>Workshop Chairs</h2>
-        <div class="card">
-            <p>Any comments or questions please e-mail the chairs:</p>
-            <p>Dominic Orchard (<a href="mailto:d.a.orchard@kent.ac.uk">d.a.orchard@kent.ac.uk</a>)</p>
-            <p>Anil Madhavapeddy (<a href="mailto:avsm2@cam.ac.uk">avsm2@cam.ac.uk</a>)</p>
+            <h2>Full Call for Papers Text</h2>
+            <pre>
+Call for Contributions
+Workshop on Programming for the Planet (PROPL)  colocated with POPL 2023.
+Saturday January 20th 2023, London, UK
+https://popl24.sigplan.org/home/propl-2024
+
+There are simultaneous crises across the planet due to rising CO2 emissions, rapid biodiversity loss, and desertification. Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to make decisions that affect the lives of billions of people worldwide.
+
+However, programming the computer systems required to effectively ingest, clean, collate, process, explore, archive, and derive policy decisions from the planetary data we are collecting is difficult and leads to artefacts presently not usable by non-CS-experts, not reliable enough for scientific and political decision making, and not widely and openly available to all interested parties. Concurrently, domains where computational techniques are already central (e.g., climate modelling) are facing diminishing returns from current hardware trends and software techniques.
+
+PROPL explores how to close the gap between state-of-the-art programming methods being developed in academia and the use of programming in climate analysis, modelling, forecasting, policy, and diplomacy. The aim is to build bridges to the current practices used in the scientific community.
+
+The first edition of this workshop will comprise:
+* invited talks from practitioners in the environmental/climate sciences
+* contributed talks (selected by the programme committee based on short abstracts)
+* "working workshop brainstorming" format.
+
+We would welcome contributions in the following forms:
+
+* Talk proposal: Please submit an abstract of a talk aligned with the topics of the workshop. This could include reporting on existing work, a demo, open problems, work in progress, or new ideas and speculation.
+
+* Proposed discussion: If you would like to propose a discussion/brainstorming session on a particular topic, e.g., in a hour slot, then please submit a description of the session, at least three questions to consider, and at least two possible participants who could lead the discussion.
+
+* Discussant: Please outline an area of expertise aligned with the workshop in which you would be willing to act as a discussant, i.e., provide detailed commentary on talks given within this topic.
+
+Significant dates:
+
+- Call for proposals: due in Nov 24th 2023
+- Notification of talks: Dec 4th 2023
+- Workshop date: 20th January 2024 (co-located with POPL in London)
+</pre>
         </div>
         
         <div class="back-link">
-            <a href="index.html" class="btn btn-secondary">Back to Main Page</a>
+            <a href="../index.html" class="btn btn-secondary">Back to Main Page</a>
+            <a href="propl-2023-cfp.txt" class="btn" style="background-color: #9c27b0;">Text Version (CFP)</a>
         </div>
     </div>
     
     <footer>
         <div class="container">
-            <p>&copy; 2025 Programming for the Planet (PROPL) Workshop</p>
+            <p>&copy; 2023 Programming for the Planet (PROPL) Workshop</p>
         </div>
     </footer>
 </body>
