@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call for Action - PROPL 2026</title>
+    <style>
+        :root {
+            --primary-color: #2a7b9b;
+            --secondary-color: #8bc34a;
+            --dark-color: #333;
+            --light-color: #f8f9fa;
+            --max-width: 1000px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+        }
+        
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #1e5b73);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            background-image: url('../bg.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--primary-color);
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .btn:hover {
+            background-color: #1d5a73;
+        }
+        
+        .btn-orange {
+            background-color: #ff9800;
+        }
+        
+        .btn-orange:hover {
+            background-color: #e68a00;
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #71a436;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .dates {
+            background-color: #e3f2fd;
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .committee {
+            columns: 2;
+            column-gap: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .committee {
+                columns: 1;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: var(--dark-color);
+            color: white;
+            margin-top: 2rem;
+        }
+        
+        .back-link {
+            margin-top: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Call for Action</h1>
+            <p style="font-size: 1.2rem;">3rd Workshop on Programming for the Planet (PROPL)</p>
+            <p>Co-located with PLDI 2026 • Monday 15th June 2026, Boulder, Colorado</p>
+            <div style="margin-top: 1.5rem;">
+                <a href="https://pldi26.sigplan.org/home/propl-2026" class="btn" target="_blank">Workshop Website</a>
+                <a href="https://propl26.hotcrp.com/" class="btn btn-orange" target="_blank">Submit via HotCRP</a>
+                <a href="../index.html" class="btn btn-secondary">Back to Main Page</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <p>There are simultaneous interlinked crises across the planet due to human actions: climate change, biodiversity loss, and desertification (collectively, a crisis in planetary health). Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to support interventions that affect the lives of billions of people worldwide.</p>
+            
+            <p>Previous editions of PROPL (<a href="https://popl24.sigplan.org/home/propl-2024">PROPL 2024</a>, <a href="https://conf.researchr.org/home/icfp-splash-2025/propl-2025">PROPL 2025</a>) have investigated the state of practice in this area while also eliciting ambitious visions for future computational systems designed to support collaborative climate analysis, modeling, forecasting, policy, and diplomacy.</p>
+            
+            <p>Inspired by the lively discussions around these future visions in previous years, <strong>PROPL 2026</strong> will be more focused, operating as an open working meeting where we elicit requirements and propose a coherent set of technical approaches for a <strong>next-generation planetary compute engine</strong>, i.e. a large-scale "live computational commons" where all sorts of humans, working together when appropriate with safely sandboxed AI systems:</p>
+            
+            <ul>
+                <li>collect and process billions of observations about the state of the planet, with new data being ingested continuously</li>
+                <li>feed this data into live computations, including data analyses and simulations</li>
+                <li>present the results of these computations in formats that are comprehensible and actionable in the real world</li>
+            </ul>
+            
+            <p>We will consider all aspects of next-generation programming system design in this space, with dedicated time throughout the day for all of the following:</p>
+            
+            <ul>
+                <li>the user interface of the planetary compute engine (including usability considerations for both experts and non-expert contributors)</li>
+                <li>the core programming and data querying model</li>
+                <li>scalable implementation (e.g. incrementality, automatic parallelization and distribution)</li>
+                <li>interoperability mechanisms (e.g. foreign function and data interfaces)</li>
+                <li>version control</li>
+                <li>access control</li>
+                <li>collaboration with AI agents (including contextualization and sandboxing approaches)</li>
+                <li>data ingestion</li>
+                <li>sociotechnical aspects of the system (e.g. community norms, engagement with diverse stakeholders, where will computations run and how will large computations be managed)</li>
+            </ul>
+        </div>
+        
+        <h2>Call for Action</h2>
+        <div class="card">
+            <p>In the previous two editions of the Programming for the Planet workshop, our community identified the need for a planetary compute engine to "connect the dots" on planetary health. This 3rd "Action PROPL" now invites anyone with an interest in helping research, design and implement a next-generation planetary compute engine to attend and actively participate in the workshop.</p>
+            
+            <p>In each topical session, the organizers will begin with a brief orienting presentation, then ask audience members to contribute notes and ideas to a "living document" before engaging in an active discussion.</p>
+            
+            <p>The goal is to include a diverse cross-section of:</p>
+            
+            <ul>
+                <li>climate science and biodiversity practitioners, who can contribute their point of view on computational and sociotechnical requirements and unmet needs; and</li>
+                <li>researchers and engineers with expertise in programming systems, who can connect these requirements with potential technical approaches that have been percolating through the computing community in research years, and identify potential unsolved problems that need further research.</li>
+            </ul>
+            
+            <p>If you're interested in the topic of planetary health, but feel like your research doesn't fit, then we encourage you to come along and we will try to figure it out with you!</p>
+            
+            <h3>Background Reading</h3>
+            <ul>
+                <li><a href="https://www.pnas.org/doi/10.1073/pnas.2519345123" target="_blank">"Nine changes needed to deliver a radical transformation in biodiversity measurement"</a> provides background on how to combine technology with natural assessment</li>
+                <li><a href="https://pnas.org/doi/10.1073/pnas.2519347123" target="_blank">"From data to decisions: Toward a Biodiversity Monitoring Standards Framework"</a> describes a global federated framework, which we want to turn into a concrete system. This is where computer science research comes in!</li>
+                <li><a href="https://github.com/DSLsofMath/FPClimate" target="_blank">Functional Programming and Climate Impact Research</a> at Chalmers</li>
+                <li><a href="https://www.core-stack.org/" target="_blank">The CoRE Stack</a>, commoning technologies for resilience and equality</li>
+            </ul>
+            
+            <p>These provide background into the kinds of problems we'd like to address. What we are seeking from the computer science community are ideas:</p>
+            
+            <ul>
+                <li>have you recently researched and built a system which may be useful towards these goals? Tell us about it, and how it might help.</li>
+                <li>do you have colleagues working on climate or biodiversity science who may benefit as users, and could provide inputs? You are welcome to talk to them and be a proxy if you are attending PLDI.</li>
+                <li>are you looking to embark on a new project, and have some time to build new collaborations? Drop us a note!</li>
+            </ul>
+            
+            <p>Above all, we want to take action today using our specialist and valuable skills at programming languages and computer systems, rather than deferring the issue to a future generation. If you fit this mold, or you want to, then we'd be delighted to have you at the 3rd PROPL.</p>
+        </div>
+        
+        <h2>Submissions</h2>
+        <div class="card">
+            <p>We are soliciting <strong>1-page position papers</strong>, or even shorter notes, to help seed and steer the discussion on any of the topics enumerated above (or any other topics that you think it would be important to discuss). If you have a position paper to contribute, please submit via HotCRP:</p>
+            
+            <p style="text-align: center; margin: 2rem 0;">
+                <a href="https://propl26.hotcrp.com/" class="btn btn-orange" target="_blank" style="font-size: 1.1rem; padding: 0.8rem 1.5rem;">Submit via HotCRP</a>
+            </p>
+            
+            <p>Position papers will be lightly reviewed and posted publicly on the workshop webpage in advance of the event.</p>
+            
+            <ul>
+                <li>For climate science and biodiversity practitioners, broadly construed, we would love to hear your perspectives on the computational challenges you face, important constraints that would determine whether you would be willing to move to a new collection of languages, systems, and tools, and interesting research problems that might be useful case studies for the system.</li>
+                <li>For technologists, broadly construed, we would love to hear about potential important theoretical ideas, practical systems, open problems, research methods, and research results.</li>
+            </ul>
+            
+            <p>If you cannot attend, but would like to participate asynchronously, then we encourage you to submit a note to make us aware of your interest. <strong>Novelty is not a requirement in either case!</strong></p>
+        </div>
+        
+        <h2>Important Dates</h2>
+        <div class="dates">
+            <p><strong>Submission Deadline:</strong> Friday, 24th April 2026 (AoE)</p>
+            <p><strong>Workshop:</strong> Monday, 15th June 2026</p>
+        </div>
+        
+        <h2>Organizing Committee</h2>
+        <div class="card">
+            <p>Anil Madhavapeddy (University of Cambridge, UK)</p>
+            <p>Cyrus Omar (University of Michigan, United States)</p>
+            <p>Dominic Orchard (University of Cambridge; University of Kent, UK)</p>
+            <p>KC Sivaramakrishnan (IIT Madras and Tarides, India)</p>
+        </div>
+        
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Any comments or questions please e-mail the organizers:</p>
+            <p>Dominic Orchard (<a href="mailto:d.a.orchard@kent.ac.uk">d.a.orchard@kent.ac.uk</a>)</p>
+            <p>Anil Madhavapeddy (<a href="mailto:avsm2@cam.ac.uk">avsm2@cam.ac.uk</a>)</p>
+        </div>
+        
+        <div class="back-link">
+            <a href="../index.html" class="btn btn-secondary">Back to Main Page</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Programming for the Planet (PROPL) Workshop</p>
+        </div>
+    </footer>
+</body>
+</html>
